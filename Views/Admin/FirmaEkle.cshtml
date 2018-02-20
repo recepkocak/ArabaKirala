@@ -1,0 +1,104 @@
+﻿
+@{
+    ViewBag.Title = "FirmaEkle";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="page-content-wrap">
+    <div class="row">
+        <div class="col-md-12">
+            <form class="form-horizontal">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>Firma</strong> Ekle</h3>
+                        <ul class="panel-controls">
+                            <li><a href="#" class="panel-remove"><span class="fa fa-times"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="panel-body">
+                    </div>
+                    <div class="panel-body form-group-separated">
+
+                        <div class="form-group">
+                            <label class="col-md-3 col-xs-12 control-label">Firma Adı</label>
+                            <div class="col-md-6 col-xs-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="fa fa-pencil"></span></span>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <span class="help-block">Firma adını giriniz</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 col-xs-12 control-label">Telefon 1</label>
+                            <div class="col-md-6 col-xs-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="fa fa-phone"></span></span>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <span class="help-block">Telefon Giriniz</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 col-xs-12 control-label">Telefon 2</label>
+                            <div class="col-md-6 col-xs-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="fa fa-phone"></span></span>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <span class="help-block">Alternatif Telefon Giriniz</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 col-xs-12 control-label">Fax</label>
+                            <div class="col-md-6 col-xs-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span class="fa fa-fax"></span></span>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <span class="help-block"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 col-xs-12 control-label">Şehir Seçin</label>
+                            <div class="col-md-6 col-xs-12">
+                                <select class="form-control select">
+                                    <option>İstanbul</option>
+                                </select>
+                                <span class="help-block">Şehir seçiniz</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 col-xs-12 control-label">İlçe Seçin</label>
+                            <div class="col-md-6 col-xs-12">
+                                <select class="form-control select">
+                                    <option>Gaziosmanpaşa</option>
+                                </select>
+                                <span class="help-block">İlçe seçiniz</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 col-xs-12 control-label">Firma Adresi</label>
+                            <div class="col-md-6 col-xs-12">
+                                <textarea class="form-control" rows="5"></textarea>
+                                <span class="help-block">Firma Adresini Giriniz</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 col-xs-12 control-label">Firma Logo Yükleyiniz</label>
+                            <div class="col-md-6 col-xs-12">
+                                <input type="file" class="fileinput btn-primary" name="filename" id="filename" title="Logo Yükle" />
+                                <span class="help-block">Logo boyutu 80x80</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <button class="btn btn-default">Formu Temizle</button>
+                        <button class="btn btn-primary pull-right">Kaydet</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
